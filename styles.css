@@ -294,6 +294,33 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0.15;
 }
 
+.floating-logo[data-logo="html5"] {
+    top: 15%;
+    left: 75%;
+    animation-duration: 22s;
+    animation-delay: -5s;
+    color: #e34f26;
+    opacity: 0.12;
+}
+
+.floating-logo[data-logo="css3"] {
+    top: 80%;
+    left: 15%;
+    animation-duration: 28s;
+    animation-delay: -8s;
+    color: #1572b6;
+    opacity: 0.13;
+}
+
+.floating-logo[data-logo="js"] {
+    top: 45%;
+    left: 90%;
+    animation-duration: 24s;
+    animation-delay: -15s;
+    color: #f7df1e;
+    opacity: 0.14;
+}
+
 /* Spiral movement animation */
 @keyframes spiral-float {
     0% {

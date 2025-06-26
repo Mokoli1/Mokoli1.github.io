@@ -148,7 +148,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Enhanced Typewriter Effect
     const typewriterElement = document.getElementById('typewriter');
-    const texts = ['DevOps Engineer', 'Miracle Okoli'];
+    const texts = ['DevOps Engineer & Full Stack Developer', 'Miracle Okoli'];
     let textIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
