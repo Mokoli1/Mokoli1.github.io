@@ -947,6 +947,93 @@ h1, h2, h3, h4, h5, h6 {
     border: 1px solid var(--primary-color);
 }
 
+/* Special visual banners for linked projects */
+.project-card.helios-banner {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #ff6b6b 100%);
+    border: 1px solid rgba(255, 107, 107, 0.3);
+    position: relative;
+}
+
+.project-card.helios-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.1) 2px, transparent 2px),
+        radial-gradient(circle at 80% 40%, rgba(255, 107, 107, 0.15) 3px, transparent 3px),
+        radial-gradient(circle at 40% 80%, rgba(0, 212, 255, 0.1) 2px, transparent 2px),
+        linear-gradient(45deg, transparent 49%, rgba(255, 255, 255, 0.03) 50%, transparent 51%);
+    background-size: 50px 50px, 80px 80px, 60px 60px, 30px 30px;
+    animation: helios-drift 20s linear infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.project-card.bot-factory-banner {
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    position: relative;
+}
+
+.project-card.bot-factory-banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(90deg, transparent 49%, rgba(0, 212, 255, 0.1) 50%, transparent 51%),
+        linear-gradient(0deg, transparent 49%, rgba(0, 212, 255, 0.08) 50%, transparent 51%),
+        radial-gradient(circle at 25% 25%, rgba(78, 205, 196, 0.1) 2px, transparent 2px),
+        radial-gradient(circle at 75% 75%, rgba(255, 107, 107, 0.08) 1px, transparent 1px);
+    background-size: 20px 20px, 20px 20px, 40px 40px, 60px 60px;
+    animation: circuit-pulse 15s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+.project-card.bot-factory-banner::after {
+    content: '⚡ 🤖 ⚙️ 🔧 💡';
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 12px;
+    opacity: 0.3;
+    letter-spacing: 5px;
+    animation: tech-float 10s ease-in-out infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Ensure content appears above background patterns */
+.project-card.helios-banner > *,
+.project-card.bot-factory-banner > * {
+    position: relative;
+    z-index: 2;
+}
+
+@keyframes helios-drift {
+    0% { transform: translateX(0) translateY(0); }
+    25% { transform: translateX(-10px) translateY(-5px); }
+    50% { transform: translateX(5px) translateY(-10px); }
+    75% { transform: translateX(-5px) translateY(5px); }
+    100% { transform: translateX(0) translateY(0); }
+}
+
+@keyframes circuit-pulse {
+    0%, 100% { opacity: 0.8; }
+    50% { opacity: 1; }
+}
+
+@keyframes tech-float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-5px); }
+}
+
 /* Hidden Projects */
 .hidden-project {
     display: none;
