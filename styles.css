@@ -1011,8 +1011,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Kubernetes Multi-Cluster Management */
 .project-card.kubernetes-banner {
-    background: linear-gradient(135deg, #1565C0 0%, #283593 50%, #6A1B9A 100%);
-    border: 1px solid rgba(106, 27, 154, 0.3);
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    border: 1px solid rgba(0, 212, 255, 0.3);
     position: relative;
 }
 
@@ -1048,8 +1048,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Cloud-Native CI/CD Pipeline */
 .project-card.cicd-banner {
-    background: linear-gradient(135deg, #2E7D32 0%, #1565C0 50%, #00838F 100%);
-    border: 1px solid rgba(0, 131, 143, 0.3);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #ff6b6b 100%);
+    border: 1px solid rgba(255, 107, 107, 0.3);
     position: relative;
 }
 
@@ -1085,8 +1085,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Infrastructure Monitoring Stack */
 .project-card.monitoring-banner {
-    background: linear-gradient(135deg, #BF360C 0%, #E65100 50%, #FF8F00 100%);
-    border: 1px solid rgba(255, 143, 0, 0.3);
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    border: 1px solid rgba(0, 212, 255, 0.3);
     position: relative;
 }
 
@@ -1122,8 +1122,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Infrastructure as Code Automation */
 .project-card.iac-banner {
-    background: linear-gradient(135deg, #607D8B 0%, #455A64 50%, #37474F 100%);
-    border: 1px solid rgba(96, 125, 139, 0.3);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #ff6b6b 100%);
+    border: 1px solid rgba(255, 107, 107, 0.3);
     position: relative;
 }
 
@@ -1159,8 +1159,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* E-Commerce Ecosystem */
 .project-card.ecommerce-banner {
-    background: linear-gradient(135deg, #AD1457 0%, #6A1B9A 50%, #4527A0 100%);
-    border: 1px solid rgba(69, 39, 160, 0.3);
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    border: 1px solid rgba(0, 212, 255, 0.3);
     position: relative;
 }
 
@@ -1196,8 +1196,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Analytics Dashboard */
 .project-card.analytics-banner {
-    background: linear-gradient(135deg, #00838F 0%, #00695C 50%, #2E7D32 100%);
-    border: 1px solid rgba(46, 125, 50, 0.3);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #ff6b6b 100%);
+    border: 1px solid rgba(255, 107, 107, 0.3);
     position: relative;
 }
 
@@ -1233,8 +1233,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Social Collaboration Platform */
 .project-card.social-banner {
-    background: linear-gradient(135deg, #283593 0%, #1565C0 50%, #00838F 100%);
-    border: 1px solid rgba(0, 131, 143, 0.3);
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    border: 1px solid rgba(0, 212, 255, 0.3);
     position: relative;
 }
 
@@ -1270,8 +1270,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ComplianceChef */
 .project-card.compliance-banner {
-    background: linear-gradient(135deg, #2E7D32 0%, #558B2F 50%, #827717 100%);
-    border: 1px solid rgba(130, 119, 23, 0.3);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #ff6b6b 100%);
+    border: 1px solid rgba(255, 107, 107, 0.3);
     position: relative;
 }
 
@@ -1307,8 +1307,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* One-Click Wonder */
 .project-card.ansible-banner {
-    background: linear-gradient(135deg, #E65100 0%, #FF8F00 50%, #F57F17 100%);
-    border: 1px solid rgba(245, 127, 23, 0.3);
+    background: linear-gradient(135deg, #0f0f23 0%, #1a1a2e 50%, #16213e 100%);
+    border: 1px solid rgba(0, 212, 255, 0.3);
     position: relative;
 }
 
@@ -1344,8 +1344,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Lambda Legends */
 .project-card.lambda-banner {
-    background: linear-gradient(135deg, #9C27B0 0%, #673AB7 50%, #3F51B5 100%);
-    border: 1px solid rgba(63, 81, 181, 0.3);
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #ff6b6b 100%);
+    border: 1px solid rgba(255, 107, 107, 0.3);
     position: relative;
 }
 
